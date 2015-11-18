@@ -52,9 +52,6 @@ namespace ScanoramaTitlesSeeker
         }
 
 
-
-
-
         public static Application createApplication() {
             Microsoft.Office.Interop.PowerPoint.Application oPowerPoint = new Microsoft.Office.Interop.PowerPoint.Application();
             oPowerPoint.Visible = Microsoft.Office.Core.MsoTriState.msoTrue;

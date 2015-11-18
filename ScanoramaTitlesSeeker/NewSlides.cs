@@ -132,7 +132,7 @@ namespace ScanoramaTitlesSeeker
 
         public static float roundingCorrection(float f) {
             decimal d = Math.Round((decimal)f, 2, MidpointRounding.AwayFromZero);
-            return (float)d+0.1F;
+            return (float)d+0.5F;
         }
 
         public static int colorizing(System.Windows.Media.Color color)

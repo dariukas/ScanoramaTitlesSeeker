@@ -31,7 +31,7 @@ namespace ScanoramaTitlesSeeker
         {
             InitializeComponent();
             InitPPT();
-            run2();
+            run();
         }
 
         public static void run()
